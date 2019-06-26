@@ -1,0 +1,22 @@
+<steps>
+    <step action="waitUntilKeyPress" distance="15" />
+    <step action="driveForXRotations" rotations="0.10" speed="20" />
+    <step action="launchInSerial">
+        <step action="delayForXSeconds" length="1" />
+        <step action="delayForXSeconds" length="2" />
+    </step>
+    <step action="launchInParallel">
+        <step action="delayForXSeconds" length="3" />
+        <step action="delayForXSeconds" length="4" />
+    </step>
+    <step action="launchInParallel">
+        <step action="launchInParallel">
+            <step action="delayForXSeconds" length="5" />
+            <step action="delayForXSeconds" length="6" />
+        </step>
+        <step action="delayForXSeconds" length="7" />
+        <step action="delayForXSeconds" length="8" />
+    </step>
+    <step action="delayForXSeconds" length="9" />
+    <step action="returnWhenObjectWithinXcm" distance="40" />
+</steps>

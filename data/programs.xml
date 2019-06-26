@@ -1,0 +1,4 @@
+<programs>
+  <program name="Run1" fileName="program_1.xml" r="183" g="230" b="62" />  <!-- Yellow -->
+  <program name="Run2" fileName="program_2.xml" r="130" g="51" b="24" />   <!-- Red    -->  
+</programs>
